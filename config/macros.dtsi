@@ -34,7 +34,7 @@
     #binding-cells = <0>;
     bindings = <&kp K>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
-  macro_kinesis: macro_cmd_lbkt {
+  macro_cmd_lbkt: macro_cmd_lbkt {
     compatible = "zmk,behavior-macro";
     label = "macro_cmd_lbkt";
     #binding-cells = <0>;
@@ -46,7 +46,7 @@
 		, <&macro_release &kp RCMD>
 		;
   };
-  macro_kinesis: macro_cmd_rbkt {
+  macro_cmd_rbkt: macro_cmd_rbkt {
     compatible = "zmk,behavior-macro";
     label = "macro_cmd_rbkt";
     #binding-cells = <0>;
